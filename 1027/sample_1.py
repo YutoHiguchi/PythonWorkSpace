@@ -41,3 +41,4 @@ while True:
         print("奇数です")
 
 
+
