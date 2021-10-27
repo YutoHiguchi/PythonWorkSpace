@@ -11,8 +11,6 @@ while ループ
 
 while True:
     a = int(input("整数を入力してください (終了 -> 0)"))
-    # p.47 inputについて
-    # p.48 キャストについて
 
     #ここからif文　どのようにしてwhile文を抜けるか？　Javaと同じ考えです。
     if a == 0:
