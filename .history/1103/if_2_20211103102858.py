@@ -47,7 +47,7 @@ while True:
     if a == "":
         break
 
-    if a.isalnum(): # アルファベットか数字か？
+    if a.isalnum():
 
         if a.isnumeric():
             print("数字")
