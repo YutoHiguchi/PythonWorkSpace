@@ -23,7 +23,7 @@ b = 1
 c = 0
 
 while True:
-    c += 0.2
+    c += 0.05
     time.sleep(c)
     print(f"羊が{b}匹")
     b += 1
