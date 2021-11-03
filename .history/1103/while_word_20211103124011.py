@@ -39,32 +39,5 @@ while True:
 
 
 
-# ↓先生の回答
 
-# data =[]
-
-
-# while True:
-
-#     a = input("単語を入力してください：")
-
-#     if a == "":
-#         break
-
-#     if a == "LIST":
-#         print("単語リスト：",data)
-#         continue
-
-#     if a in data:
-#         print("すでに登録済みです")
-#         continue
-
-#     else:
-#         data.append(a)
-# else:
-
-#     pass #何もしない
-
-# print("終了します")
-# print(f"これまでに覚えた単語：{data}")
 
