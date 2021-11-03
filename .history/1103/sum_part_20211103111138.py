@@ -14,6 +14,8 @@ sum = 0
 
 for i in range(a, b+1):
     #  print(i)
-    sum += i
+     sum += i
 
 print(f"{a}から{b}までの合計：{sum}")
+
+
