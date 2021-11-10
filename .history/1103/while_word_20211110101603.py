@@ -16,8 +16,6 @@
 
 '''
 
-#↓課題3
-
 import os
 
 DATA_FILENAME = 'word.txt'
@@ -31,49 +29,25 @@ if os.path.isfile(DATA_FILENAME): #ファイルが有るかの確認
 else:   #ファイルがない時
     words_list = [] #リストの作成
 
-while True:
-
-    input_word = input("単語を入力してください：") #input_wordに入力値格納
-
-    if input_word == "": #入力値が"""(空)だった場合
-        break # breakで抜ける
-
-    if input_word == "LIST":    #LISTと入力された時の処理
-        print(f"単語リスト：{words_list}")  #単語が入っているリストを出力
-        continue    #continueで続ける
-
-    if input_word in words_list:    #入力された値がリストに存在している場合
-        print("すでに登録済みです")
-        continue    #continueで続ける
-
-    else:   #入力された値がリストに存在していない場合
-        words_list.append(input_word)   #入力値をリスト(words_list)に繋げている
-
-#終了時のメッセージ
-print("終了します")
-print(f"これまでに覚えた単語：{words_list}")
-f = open('test.txt', 'w')
-
-
 
 # ↓課題2
-# data =[]
+data =[]
 
-# while True:
+while True:
 
-#     a = input("単語を入力してください：")
+    a = input("単語を入力してください：")
 
-#     if a == "":
-#         print("終了します")
-#         print(f"これまでに覚えた単語：{data}")
-#         break
+    if a == "":
+        print("終了します")
+        print(f"これまでに覚えた単語：{data}")
+        break
 
-#     if a == "LIST":
-#         print(f"単語リスト：{data}")
-#     elif a in data:
-#         print("すでに登録済みです")
-#     else:
-#         data.append(a)
+    if a == "LIST":
+        print(f"単語リスト：{data}")
+    elif a in data:
+        print("すでに登録済みです")
+    else:
+        data.append(a)
 
 
 

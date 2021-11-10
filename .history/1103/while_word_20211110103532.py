@@ -16,8 +16,6 @@
 
 '''
 
-#↓課題3
-
 import os
 
 DATA_FILENAME = 'word.txt'
@@ -49,13 +47,9 @@ while True:
     else:   #入力された値がリストに存在していない場合
         words_list.append(input_word)   #入力値をリスト(words_list)に繋げている
 
-#終了時のメッセージ
 print("終了します")
 print(f"これまでに覚えた単語：{words_list}")
 f = open('test.txt', 'w')
-
-
-
 # ↓課題2
 # data =[]
 
