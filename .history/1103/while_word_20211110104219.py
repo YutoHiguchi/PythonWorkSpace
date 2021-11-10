@@ -52,8 +52,6 @@ while True:
 # 終了時のメッセージ
 print("終了します")
 print(f"これまでに覚えた単語：{words_list}")
-
-# ファイルに単語リストを書き込む
 with open('sample.txt', 'w') as f:  # モード：wとは
     for word in words_list:
         f.write(f'{word}\n')
