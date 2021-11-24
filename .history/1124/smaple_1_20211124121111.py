@@ -1,5 +1,5 @@
 while True:
-    input_number = int(input("整数を入力して下さい（終了 -> 0）:"))
+    input_number = int(input("整数を入力して下さい：（終了 -> 0）"))
 
     if input_number == 0:
         break
