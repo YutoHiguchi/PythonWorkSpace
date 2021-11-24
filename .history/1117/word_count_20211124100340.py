@@ -11,12 +11,12 @@
 
 '''
 
-# import os
+import os
 
-# DATA_FILENAME = 'word_list.txt'
-# if os.path.isfile(DATA_FILENAME):  # ファイルが有るかの確認
-#     # ここからファイルを読み込む
-#     with open(DATA_FILENAME, 'rb') as f:  # 開いたファイルを「f」として扱う
+DATA_FILENAME = 'word_list.txt'
+if os.path.isfile(DATA_FILENAME):  # ファイルが有るかの確認
+    # ここからファイルを読み込む
+    with open(DATA_FILENAME, 'rb') as f:  # 開いたファイルを「f」として扱う
 
 
 
