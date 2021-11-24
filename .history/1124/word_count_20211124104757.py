@@ -31,49 +31,10 @@ with open(DATA_FILENAME) as f:
 
 # 練習4  アルファベット昇順の並び替え    sorted()--
 
-'''
-
-【実行結果】
-> python word_count.py
-a :1
-about :2
-article :1
-disambiguation:1
-edition :1
-encyclopedia :3
-encyclopedias :2
-english :2
-for :5
-free :2
-from :1
-here :1
-home :1
-introduction :1
-is :1
-list :1
-lists :1
-main :1
-of :2
-other :2
-page :2
-redirects :1
-see :5
-the :3
-this :2
-uses :1
-visitor :1
-wikipedia :4
-wikipedia's :2
-
-'''
-
-
-
 # 最大文字数を調べる
 #len_max = 0
 # for word in word_dic.keys():  keys()  #キーを取り出す
 #   len_max = max(len_max,len(word))
-
 # sort後 並び替え 出力処理
 # for word in sorted(word_dic):
 # # for word in sorted(word_dic,keys()):

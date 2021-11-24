@@ -29,7 +29,6 @@ with open(DATA_FILENAME) as f:
 
 
 
-# 練習4  アルファベット昇順の並び替え    sorted()--
 
 '''
 
@@ -66,8 +65,7 @@ wikipedia :4
 wikipedia's :2
 
 '''
-
-
+# 練習4  アルファベット昇順の並び替え    sorted()--
 
 # 最大文字数を調べる
 #len_max = 0
