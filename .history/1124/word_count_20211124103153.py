@@ -26,8 +26,6 @@ with open(DATA_FILENAME) as f:
 
 #練習4  アルファベット昇順の並び替え    sorted()--
 
-for word in sorted(word_dic):
-# for word in sorted(word_dic.keys()):
-    print(f'{word:}:{word_dic[word]}')
 
-# print(new_list)
+new_list = sorted(word_dic.items())
+print(new_list.split(',)'))

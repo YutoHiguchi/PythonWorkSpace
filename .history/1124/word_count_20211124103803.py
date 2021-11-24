@@ -30,4 +30,4 @@ for word in sorted(word_dic):
 # for word in sorted(word_dic.keys()):
     print(f'{word:}:{word_dic[word]}')
 
-# print(new_list)
+print(new_list)

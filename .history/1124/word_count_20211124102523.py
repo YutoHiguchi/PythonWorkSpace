@@ -24,10 +24,8 @@ with open(DATA_FILENAME) as f:
         else:
             word_dic[word] = 1                  # 初めての単語なので初期値1
 
-#練習4  アルファベット昇順の並び替え    sorted()--
+#練習4  アルファベット昇順の並び替え
 
-for word in sorted(word_dic):
-# for word in sorted(word_dic.keys()):
-    print(f'{word:}:{word_dic[word]}')
 
-# print(new_list)
+new_list = sorted(word_dic.items(), key=item)
+print(new_list)
