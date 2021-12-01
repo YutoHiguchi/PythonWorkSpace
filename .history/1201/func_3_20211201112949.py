@@ -32,8 +32,8 @@ def do_anything(*args):
     if len(args) == 0:
         print('やること無いので暇です。')
     elif len(args) == 1:
-        args1 = args[0]
-        # args1, = args
+        # args1 = args[0]
+        args1, = args
 
         if type(args1) != int and type(args1) != str:
             print('難しくて無理です')
