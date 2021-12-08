@@ -31,12 +31,12 @@ while True:
     print("a=>Hello,b=>Goodbye")
     select = input("どちらを実行しますか？：")
 
-    # p.104 制御構文について
-    if select == " ":   #入力された文字が空文字だった時
+
+    # p.104
+    if select == " ":
     # if select == " " or select == "" or select == "　":
         break
-
-    if select in run_list.keys():   #run_list(辞書)のkeyに入力値が存在する時
+    if select in run_list.keys():
         run_list[select]()
     else:
         print("どちらかを選択して下さい")
