@@ -27,6 +27,31 @@ def run_time(func):
     return funcname
 # 実行時間 [time.time() - starttrim]
 @run_time
+def test(i):
+    for i in range(i):
+        time.sleep(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+starttrim = time.time()
+
+
+# main
+@run_time
 def test(n):
     for i in range(n):
         time.sleep(i)

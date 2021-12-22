@@ -31,6 +31,17 @@ def test(n):
     for i in range(n):
         time.sleep(i)
 
+
+
+starttrim = time.time()
+
+
+# main
+@run_time
+def test(n):
+    for i in range(n):
+        time.sleep(i)
+
 test(3)
 test(5)
 
